@@ -6,6 +6,11 @@ defaultContentLanguage = "ru"
 
 enableEmoji = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   author = "Daulet"
   info = "Tech Lead | Cyber-Physical Systems Architect"
